@@ -21,6 +21,7 @@ namespace FrogSolve
         public void LoadDeck()
         {
             _frog_deck[0] = new FrogCard(
+                    0,
                     new FrogPart(System.Drawing.Color.Blue, "head"),
                     new FrogPart(System.Drawing.Color.Yellow, "butt"),
                     new FrogPart(System.Drawing.Color.Green, "butt"),
@@ -29,6 +30,7 @@ namespace FrogSolve
 
 
             _frog_deck[1] = new FrogCard(
+                    1,
                     new FrogPart( System.Drawing.Color.Red, "butt"),
                     new FrogPart( System.Drawing.Color.Yellow, "head"),
                     new FrogPart( System.Drawing.Color.Blue, "butt"),
@@ -36,6 +38,7 @@ namespace FrogSolve
                     );
 
             _frog_deck[2] = new FrogCard(
+                    2,
                     new FrogPart( System.Drawing.Color.Yellow, "butt"),
                     new FrogPart( System.Drawing.Color.Green, "head"),
                     new FrogPart( System.Drawing.Color.Blue, "butt"),
@@ -43,6 +46,7 @@ namespace FrogSolve
                     );
 
             _frog_deck[3] = new FrogCard(
+                    3,
                     new FrogPart( System.Drawing.Color.Green, "butt"),
                     new FrogPart( System.Drawing.Color.Green, "head"),
                     new FrogPart( System.Drawing.Color.Yellow, "butt"),
@@ -50,6 +54,7 @@ namespace FrogSolve
                     );
 
             _frog_deck[4] = new FrogCard(
+                    4,
                     new FrogPart( System.Drawing.Color.Green, "head"),
                     new FrogPart( System.Drawing.Color.Red, "butt"),
                     new FrogPart( System.Drawing.Color.Yellow, "head"),
@@ -57,6 +62,7 @@ namespace FrogSolve
                     );
             //
             _frog_deck[5] = new FrogCard(
+                    5,
                     new FrogPart( System.Drawing.Color.Green, "head"),
                     new FrogPart( System.Drawing.Color.Yellow, "butt"),
                     new FrogPart( System.Drawing.Color.Red, "butt"),
@@ -64,6 +70,7 @@ namespace FrogSolve
                     );
 
             _frog_deck[6] = new FrogCard(
+                    6,
                     new FrogPart( System.Drawing.Color.Red, "butt"),
                     new FrogPart( System.Drawing.Color.Red, "head"),
                     new FrogPart( System.Drawing.Color.Blue, "head"),
@@ -71,6 +78,7 @@ namespace FrogSolve
                     );
 
             _frog_deck[7] = new FrogCard(
+                    7,
                     new FrogPart( System.Drawing.Color.Green, "head"),
                     new FrogPart( System.Drawing.Color.Blue, "head"),
                     new FrogPart( System.Drawing.Color.Yellow, "butt"),
@@ -78,6 +86,7 @@ namespace FrogSolve
                     );
 
             _frog_deck[8] = new FrogCard(
+                    8,
                     new FrogPart( System.Drawing.Color.Blue, "butt"),
                     new FrogPart( System.Drawing.Color.Yellow, "head"),
                     new FrogPart( System.Drawing.Color.Yellow, "head"),

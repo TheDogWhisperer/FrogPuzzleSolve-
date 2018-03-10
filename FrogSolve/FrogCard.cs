@@ -11,6 +11,8 @@ namespace FrogSolve
     public class FrogCard
     {
         // Private variables
+        int _card_nbr;
+        int _rotations;
         FrogPart _top;
         FrogPart _left;
         FrogPart _right;
@@ -21,8 +23,10 @@ namespace FrogSolve
 
         }
 
-        public FrogCard( FrogPart p_top, FrogPart p_left, FrogPart p_right, FrogPart p_bottom)
+        public FrogCard(int p_card_nbr, FrogPart p_top, FrogPart p_left, FrogPart p_right, FrogPart p_bottom)
         {
+            _card_nbr = p_card_nbr;
+            _rotations = 0;
             _top = p_top;
             _left = p_left;
             _right = p_right;
@@ -41,10 +45,24 @@ namespace FrogSolve
             _bottom = _right;
             _right = temp_part;
 
+            _rotations++;
+
 
         }
 
         // Public Access methods
+        public int card_nbr
+        {
+            get { return _card_nbr; }
+            set { _card_nbr = value; }
+        }
+
+        public int rotations
+        {
+            get { return _rotations; }
+            set { _rotations = value; }
+        }
+
         public FrogPart top {
             get { return _top; }
             set { _top = value; }

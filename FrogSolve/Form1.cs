@@ -82,6 +82,8 @@ namespace FrogSolve
 
                 for (int c0 =0; c0<=3;c0++)
                 {
+                    test_deck.cards[0].rotations = c0;
+
                     for (int c1 = 0; c1 <= 3; c1++)
                     {
                         test_deck.cards[1].RotateCard();
@@ -184,6 +186,9 @@ namespace FrogSolve
             p_usercontrol.lbl_left.Text = p_frogcard.left.body_part;
             p_usercontrol.lbl_right.Text = p_frogcard.right.body_part;
             p_usercontrol.lbl_bottom.Text = p_frogcard.bottom.body_part;
+
+            p_usercontrol.lbl_card_nbr.Text = p_frogcard.card_nbr.ToString();
+            p_usercontrol.lbl_rotations.Text = "r: " + p_frogcard.rotations.ToString();
         }
     }
 }

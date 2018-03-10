@@ -36,6 +36,8 @@
             this.pb_bottom = new System.Windows.Forms.PictureBox();
             this.pb_right = new System.Windows.Forms.PictureBox();
             this.pb_top = new System.Windows.Forms.PictureBox();
+            this.lbl_card_nbr = new System.Windows.Forms.Label();
+            this.lbl_rotations = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pb_left)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_bottom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_right)).BeginInit();
@@ -114,11 +116,31 @@
             this.pb_top.TabIndex = 9;
             this.pb_top.TabStop = false;
             // 
+            // lbl_card_nbr
+            // 
+            this.lbl_card_nbr.AutoSize = true;
+            this.lbl_card_nbr.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_card_nbr.Location = new System.Drawing.Point(70, 70);
+            this.lbl_card_nbr.Name = "lbl_card_nbr";
+            this.lbl_card_nbr.Size = new System.Drawing.Size(0, 13);
+            this.lbl_card_nbr.TabIndex = 17;
+            // 
+            // lbl_rotations
+            // 
+            this.lbl_rotations.AutoSize = true;
+            this.lbl_rotations.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_rotations.Location = new System.Drawing.Point(104, 130);
+            this.lbl_rotations.Name = "lbl_rotations";
+            this.lbl_rotations.Size = new System.Drawing.Size(0, 13);
+            this.lbl_rotations.TabIndex = 18;
+            // 
             // uc_frog_card
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Controls.Add(this.lbl_rotations);
+            this.Controls.Add(this.lbl_card_nbr);
             this.Controls.Add(this.lbl_bottom);
             this.Controls.Add(this.lbl_right);
             this.Controls.Add(this.lbl_left);
@@ -148,5 +170,7 @@
         public System.Windows.Forms.PictureBox pb_bottom;
         public System.Windows.Forms.PictureBox pb_right;
         public System.Windows.Forms.PictureBox pb_top;
+        public System.Windows.Forms.Label lbl_card_nbr;
+        public System.Windows.Forms.Label lbl_rotations;
     }
 }
