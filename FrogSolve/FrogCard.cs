@@ -10,6 +10,7 @@ namespace FrogSolve
 
     public class FrogCard
     {
+        // Private variables
         FrogPart _top;
         FrogPart _left;
         FrogPart _right;
@@ -28,6 +29,7 @@ namespace FrogSolve
             _bottom = p_bottom;
         }
 
+        // Method to rotate the card 90 degress to the right
         public void RotateCard()
         {
             FrogPart temp_part = new FrogPart();
@@ -42,6 +44,7 @@ namespace FrogSolve
 
         }
 
+        // Public Access methods
         public FrogPart top {
             get { return _top; }
             set { _top = value; }

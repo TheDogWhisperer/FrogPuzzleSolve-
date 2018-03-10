@@ -29,124 +29,118 @@
         private void InitializeComponent()
         {
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.btn_solve = new System.Windows.Forms.Button();
+            this.uc_frog_card9 = new FrogSolve.uc_frog_card();
+            this.uc_frog_card8 = new FrogSolve.uc_frog_card();
+            this.uc_frog_card7 = new FrogSolve.uc_frog_card();
+            this.uc_frog_card6 = new FrogSolve.uc_frog_card();
+            this.uc_frog_card5 = new FrogSolve.uc_frog_card();
+            this.uc_frog_card4 = new FrogSolve.uc_frog_card();
+            this.uc_frog_card3 = new FrogSolve.uc_frog_card();
+            this.uc_frog_card2 = new FrogSolve.uc_frog_card();
+            this.uc_frog_card1 = new FrogSolve.uc_frog_card();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // btn_solve
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.btn_solve.Location = new System.Drawing.Point(545, 124);
+            this.btn_solve.Name = "btn_solve";
+            this.btn_solve.Size = new System.Drawing.Size(75, 23);
+            this.btn_solve.TabIndex = 1;
+            this.btn_solve.Text = "Solve";
+            this.btn_solve.UseVisualStyleBackColor = true;
+            this.btn_solve.Click += new System.EventHandler(this.btn_solve_Click);
             // 
-            // pictureBox2
+            // uc_frog_card9
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(106, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.uc_frog_card9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.uc_frog_card9.Location = new System.Drawing.Point(326, 315);
+            this.uc_frog_card9.Name = "uc_frog_card9";
+            this.uc_frog_card9.Size = new System.Drawing.Size(148, 148);
+            this.uc_frog_card9.TabIndex = 10;
             // 
-            // pictureBox3
+            // uc_frog_card8
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(212, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            this.uc_frog_card8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.uc_frog_card8.Location = new System.Drawing.Point(172, 315);
+            this.uc_frog_card8.Name = "uc_frog_card8";
+            this.uc_frog_card8.Size = new System.Drawing.Size(148, 148);
+            this.uc_frog_card8.TabIndex = 9;
             // 
-            // pictureBox4
+            // uc_frog_card7
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(212, 106);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox4.TabIndex = 5;
-            this.pictureBox4.TabStop = false;
+            this.uc_frog_card7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.uc_frog_card7.Location = new System.Drawing.Point(18, 315);
+            this.uc_frog_card7.Name = "uc_frog_card7";
+            this.uc_frog_card7.Size = new System.Drawing.Size(148, 148);
+            this.uc_frog_card7.TabIndex = 8;
             // 
-            // pictureBox5
+            // uc_frog_card6
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(106, 106);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
+            this.uc_frog_card6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.uc_frog_card6.Location = new System.Drawing.Point(326, 161);
+            this.uc_frog_card6.Name = "uc_frog_card6";
+            this.uc_frog_card6.Size = new System.Drawing.Size(148, 148);
+            this.uc_frog_card6.TabIndex = 7;
             // 
-            // pictureBox6
+            // uc_frog_card5
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(0, 106);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox6.TabIndex = 3;
-            this.pictureBox6.TabStop = false;
+            this.uc_frog_card5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.uc_frog_card5.Location = new System.Drawing.Point(172, 161);
+            this.uc_frog_card5.Name = "uc_frog_card5";
+            this.uc_frog_card5.Size = new System.Drawing.Size(148, 148);
+            this.uc_frog_card5.TabIndex = 6;
             // 
-            // pictureBox7
+            // uc_frog_card4
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(212, 212);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox7.TabIndex = 8;
-            this.pictureBox7.TabStop = false;
+            this.uc_frog_card4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.uc_frog_card4.Location = new System.Drawing.Point(18, 161);
+            this.uc_frog_card4.Name = "uc_frog_card4";
+            this.uc_frog_card4.Size = new System.Drawing.Size(148, 148);
+            this.uc_frog_card4.TabIndex = 5;
             // 
-            // pictureBox8
+            // uc_frog_card3
             // 
-            this.pictureBox8.Location = new System.Drawing.Point(106, 212);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox8.TabIndex = 7;
-            this.pictureBox8.TabStop = false;
+            this.uc_frog_card3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.uc_frog_card3.Location = new System.Drawing.Point(326, 7);
+            this.uc_frog_card3.Name = "uc_frog_card3";
+            this.uc_frog_card3.Size = new System.Drawing.Size(148, 148);
+            this.uc_frog_card3.TabIndex = 4;
             // 
-            // pictureBox9
+            // uc_frog_card2
             // 
-            this.pictureBox9.Location = new System.Drawing.Point(0, 212);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox9.TabIndex = 6;
-            this.pictureBox9.TabStop = false;
+            this.uc_frog_card2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.uc_frog_card2.Location = new System.Drawing.Point(172, 7);
+            this.uc_frog_card2.Name = "uc_frog_card2";
+            this.uc_frog_card2.Size = new System.Drawing.Size(148, 148);
+            this.uc_frog_card2.TabIndex = 3;
+            // 
+            // uc_frog_card1
+            // 
+            this.uc_frog_card1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.uc_frog_card1.Location = new System.Drawing.Point(18, 7);
+            this.uc_frog_card1.Name = "uc_frog_card1";
+            this.uc_frog_card1.Size = new System.Drawing.Size(148, 148);
+            this.uc_frog_card1.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(805, 472);
+            this.Controls.Add(this.uc_frog_card9);
+            this.Controls.Add(this.uc_frog_card8);
+            this.Controls.Add(this.uc_frog_card7);
+            this.Controls.Add(this.uc_frog_card6);
+            this.Controls.Add(this.uc_frog_card5);
+            this.Controls.Add(this.uc_frog_card4);
+            this.Controls.Add(this.uc_frog_card3);
+            this.Controls.Add(this.uc_frog_card2);
+            this.Controls.Add(this.uc_frog_card1);
+            this.Controls.Add(this.btn_solve);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -154,15 +148,16 @@
         #endregion
 
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Button btn_solve;
+        private uc_frog_card uc_frog_card1;
+        private uc_frog_card uc_frog_card2;
+        private uc_frog_card uc_frog_card3;
+        private uc_frog_card uc_frog_card4;
+        private uc_frog_card uc_frog_card5;
+        private uc_frog_card uc_frog_card6;
+        private uc_frog_card uc_frog_card7;
+        private uc_frog_card uc_frog_card8;
+        private uc_frog_card uc_frog_card9;
     }
 }
 
