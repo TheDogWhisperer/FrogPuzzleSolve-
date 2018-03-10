@@ -67,9 +67,12 @@ namespace FrogSolve
             Permutations<int> all_permutations = new Permutations<int>(inputSet, GenerateOption.WithoutRepetition);
 
             //Loop through each permutation of the number list
+            int permutation_count = 0;
 
             foreach (IList<int> permutation in all_permutations)
             {
+                permutation_count++;
+
                 // load the permutation into a test deck
                 FrogDeck test_deck = new FrogDeck();
                 for (int i=0; i <=8; i++)
@@ -139,6 +142,7 @@ namespace FrogSolve
                                                     if (test_deck.TestSolution())
                                                     {
                                                         MessageBox.Show("Solution Found!");
+                                                        lbl_permutations_checked.Text = "permutations checked: " + permutation_count.ToString();
                                                         return test_deck;
                                                     }
 

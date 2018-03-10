@@ -39,6 +39,7 @@
             this.uc_frog_card3 = new FrogSolve.uc_frog_card();
             this.uc_frog_card2 = new FrogSolve.uc_frog_card();
             this.uc_frog_card1 = new FrogSolve.uc_frog_card();
+            this.lbl_permutations_checked = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_solve
@@ -123,11 +124,21 @@
             this.uc_frog_card1.Size = new System.Drawing.Size(148, 148);
             this.uc_frog_card1.TabIndex = 2;
             // 
+            // lbl_permutations_checked
+            // 
+            this.lbl_permutations_checked.AutoSize = true;
+            this.lbl_permutations_checked.Location = new System.Drawing.Point(545, 234);
+            this.lbl_permutations_checked.Name = "lbl_permutations_checked";
+            this.lbl_permutations_checked.Size = new System.Drawing.Size(126, 13);
+            this.lbl_permutations_checked.TabIndex = 11;
+            this.lbl_permutations_checked.Text = "Permutations Checked: 0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(805, 472);
+            this.Controls.Add(this.lbl_permutations_checked);
             this.Controls.Add(this.uc_frog_card9);
             this.Controls.Add(this.uc_frog_card8);
             this.Controls.Add(this.uc_frog_card7);
@@ -142,6 +153,7 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -158,6 +170,7 @@
         private uc_frog_card uc_frog_card7;
         private uc_frog_card uc_frog_card8;
         private uc_frog_card uc_frog_card9;
+        private System.Windows.Forms.Label lbl_permutations_checked;
     }
 }
 
